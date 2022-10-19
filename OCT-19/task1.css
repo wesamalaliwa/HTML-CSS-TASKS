@@ -1,0 +1,16 @@
+body {
+    background-color: grey;
+    }
+    h1 {
+    color:white;
+    margin-left: 20px;
+    }
+    p {
+    color: yellow;
+    }
+    table {
+    background-color: azure;
+    text-shadow: 0ch;
+    display: block;
+    
+    }

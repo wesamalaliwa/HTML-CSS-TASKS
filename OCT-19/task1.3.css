@@ -1,0 +1,39 @@
+#heading{
+  margin-left: 40%;
+}
+#submitButton{
+  margin-left: 25%;
+}
+#HCIbold{
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#memesital{
+  font-style: italic;
+ /* font-family: ;*/
+}
+#rowBackground{
+  background-color: #EDEDED;
+}
+#userInterface{
+  color: #68abee;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headingBackground{
+  background-color:#B4CDE6;
+  color: #1746A2;
+}
+.Tabledatacolspan{
+  padding-left: 40%;
+  font-weight: bold;
+}
+.tableCellblue{
+  color:#68abee ;
+
+}
+table, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+}
