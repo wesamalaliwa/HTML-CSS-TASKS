@@ -4,8 +4,9 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
 background-color: rgb(255, 254, 253);
-border: 4px gold solid;
+border: 4px rgb(141, 138, 121) solid;
 
 text-align: center;
 margin: 20px;
@@ -16,6 +17,19 @@ height: 700px;
   color: white;
 
 }
+@media only screen and (min-device-width:0px) and (max-device-width:480px) {
+                #mainDiv{
+                    grid-template-columns: auto ;
+                    height: 700px;
+                }
+            }
+                @media only screen and (min-device-width:481px) and (max-device-width:768px) {
+                #mainDiv{
+                    grid-template-columns: auto  auto;
+                    height: 700px;
+                    padding-right: 3px;
+                }
+              }
 </style>
 </head>
 <body>

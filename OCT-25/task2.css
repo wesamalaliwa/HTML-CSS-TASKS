@@ -1,0 +1,55 @@
+#themain{
+    width: 50%;
+    height: 100%;
+    
+    margin: auto;
+        text-align: center;
+        
+
+}
+.the2{
+
+width: 75px;
+height: 75px;
+display: inline-block;
+margin: auto;
+}
+#div1{
+background-image: url(download.jpg);
+}
+#div2{
+    background-image: url(Gear-Photos-597589287.webp);
+    }
+    #div3{
+        background-image: url(wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.webp);
+        }
+        #div4{
+            background-image: url(istockphoto-1216425366-612x612.jpg);
+            }
+            #div5{
+                background-image: url(pexels-lukas-rodriguez-3680219.jpg);
+                }
+                #div6{
+                    background-image: url(photo-1508921912186-1d1a45ebb3c1.jpg);
+                    }
+                    #div7{
+                        background-image: url(PHOTO2021-BEST-Aldo_Wicki.jpg);
+                        }
+                        #div8{
+                            background-image: url(UQL4MLA6MXE6ECSZHOSXA3LA4E.webp);
+                            }
+
+                            @media only screen and (min-width: 0px) and (max-width: 480px){ 
+                                .the2{
+                                text-align: center;
+                                flex-direction: column;
+                                }
+                            }
+                        
+                            @media only screen and (min-width: 481px) and (max-width: 768px){
+                          
+                                .the2{
+                                    text-align: center;
+                                    flex-direction: row;
+                                    }
+                            }
