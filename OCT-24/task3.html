@@ -1,7 +1,15 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Flex Task </title>
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+
+
+
+            
         <style>
                 #main{
                 width: 100%;
@@ -17,6 +25,22 @@
                 font-weight: bold;
                 font-size: 70px;   
                      
+            }
+            @media only screen and (min-device-width:0px) and (max-device-width:480px) {
+                #main{
+                    flex-direction: column;
+                    height: 100%;
+                }
+            }
+                @media only screen and (min-device-width:481px) and (max-device-width:768px) {
+                #main{
+                    flex-direction: column; 
+                    height: 100%;
+                    padding-right: 3px;
+                }
+              
+              
+                
             }
         </style>
     </head>
